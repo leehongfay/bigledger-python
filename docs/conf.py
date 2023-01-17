@@ -99,7 +99,7 @@ copyright = "2023, Vincent Lee"
 # If you don’t need the separation provided between version and release,
 # just set them both to the same value.
 try:
-    from bigledger.akaun_sdk import __version__ as version
+    from bigledger.google_lib import __version__ as version
 except ImportError:
     version = ""
 
