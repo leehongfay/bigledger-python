@@ -22,4 +22,4 @@ This library contains the following packages:
 * PythonBot Agent
 * PythonBot CLI
 
-Version 0.1.100
+Version 0.1.101
