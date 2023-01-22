@@ -9,3 +9,25 @@ build-backend = "setuptools.build_meta"
 version_scheme = "no-guess-dev"
 local_scheme = "no-local-version"
 
+
+[tool.bumpver]
+current_version = "0.1.100"
+version_pattern = "MAJOR.MINOR.PATCH[PYTAGNUM]"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+]
+"setup.py" = [
+    "{version}",
+    "{pep440_version}",
+]
+"README.rst" = [
+    "{version}",
+    "{pep440_version}",
+]
+
