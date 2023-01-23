@@ -1,0 +1,42 @@
+= Ideas for BigLedger Pypi Package
+
+This is available for :
+* Tenant System Administrator
+* Applet Developers
+* Normal end users
+
+This is available to them in the form of sdk, cli tools
+
+== Akaun SDK
+
+
+== Akaun CLI
+
+== For Applet Developers
+
+
+== Tenant Administration
+
+* Tenant Catalog
+
+* Tenant Users
+
+* Tenant Permissions
+
+* Data Fixing and Clean Up
+
+
+
+=== Data Import
+
+=== Data Extraction
+
+=== Usage Statistics
+
+=== Extracting Server Log Files
+
+
+
+
+
+
